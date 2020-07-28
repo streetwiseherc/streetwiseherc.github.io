@@ -2,7 +2,6 @@
 <HEAD>
 <TITLE>the Metropolis Project</TITLE>
 <SCRIPT LANGUAGE="JavaScript">
-<!--
 function OpenPlayList(playlist)
 {
   var playlist_html = 'Playlists\\' + playlist + '.txt';
@@ -17,7 +16,6 @@ function OpenPlayList(playlist)
     win.location.href = playlist_html;
   }
 }
-<!-- -->
 </SCRIPT>
 
 </HEAD>
@@ -104,7 +102,7 @@ function OpenPlayList(playlist)
         </TR>
         </FONT>
       </TABLE>
-      <FORM NAME="request_form" METHOD=POST ACTION="cgi/request.pl">
+      <FORM NAME="request_form" METHOD=POST onsubmit="alert('Sure, just hop into your time machine and set the dial to 1998...'); return false;">
       <TABLE WIDTH=430>
         <TR>
           <TD ALIGN=RIGHT VALIGN=MIDDLE WIDTH=100>
