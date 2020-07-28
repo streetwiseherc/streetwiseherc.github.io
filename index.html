@@ -1,0 +1,327 @@
+<HTML>
+<HEAD>
+<TITLE>the Metropolis Project</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function OpenPlayList(playlist)
+{
+  var playlist_html = "Cgi\\Playlist.pl?playlist=" + playlist;
+
+  win = window.open('','WIN','width=600,height=400,scrollbars,location=no,menubar=no,toolbar=no');
+  if (win != null) 
+  {
+    if (win.opener == null) 
+    {
+      win.opener = self;
+    }
+    win.location.href = playlist_html;
+  }
+}
+<!-- -->
+</SCRIPT>
+
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66CC66" VLINK="#DDDDDD" ALINK="#EEEEEE" TEXT="#DDDDDD" TOPMARGIN=0 LEFTMARGIN=0>
+
+<FONT FACE="Arial" SIZE=3> 
+&nbsp;<BR>
+<CENTER><IMG WIDTH=419 HEIGHT=151 ALT="the Metropolis Project featuring DC Zero and DJ Six Million Dollar" SRC="Images\NewLogo.gif"></CENTER><BR>
+
+<CENTER>
+<TABLE BORDER=0 WIDTH=500>
+  <TR>
+    <TD>
+      <CENTER><B>Welcome to the Metropolis Project</B></CENTER>
+      Take the a mindbending musical journey through some of today's best electronica and techno artists from 12:00 am until 2:00 am  every Friday Night (Saturday Morning) on 91.7 WSUW FM.    
+      </CENTER>
+    </TD>
+  </TR>
+</TABLE>
+</CENTER>
+
+<TABLE BORDER=0 CELLSPACING=8 CELLPADDING=0 WIDTH=580>	
+  <TR>
+    <TD COLSPAN=2 VALIGN=TOP ALIGN=LEFT>
+      &nbsp;<BR>
+    </TD>
+  </TR>
+  <TR>
+    <TD WIDTH=150 VALIGN=TOP ALIGN=LEFT>
+      <IMG HEIGHT="87" WIDTH="118" SRC="Images\jilted.jpg" ALT="Prodigy's 2nd CD: Music for the Jilted Generation"> 
+      <IMG HEIGHT="87" WIDTH="118" SRC="Images\orbital.jpg" ALT="Orbital">
+    </TD>
+    <TD WIDTH=430 VALIGN=TOP ALIGN=LEFT>
+      <A NAME="news"><IMG HEIGHT=31 WIDTH=88 SRC="Images\news.gif" BORDER=0 ALT="news"></A>
+      <BR>
+      <I>Get the lowdown on what's new at the Metropolis Project</I><BR><BR>
+      <B>Friday Sept. 11th 1998</B><BR>
+      Its the second show of the semester and DC and DJ Six Million Dollar are in full effect.
+      The web page is finally up and all the wrinkles have been ironed out by your mother.
+      If you have any comments or suggestions please send using the requests section below.
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=2 VALIGN=TOP ALIGN=LEFT>
+      &nbsp;<BR>
+    </TD>
+  </TR>
+  <TR>
+    <TD WIDTH=150 VALIGN=TOP ALIGN=LEFT>
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\fluke.jpg" ALT="Fluke">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\leftfield.jpg" ALT="Leftfield">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\experien.jpg" ALT="Prodigy's 1st CD: Experience"> 
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\photek.jpg" ALT="Photek">
+    </TD>
+    <TD WIDTH=430 VALIGN=TOP ALIGN=LEFT>
+      <A NAME="requests"><IMG WIDTH=174 HEIGHT=28 SRC="Images\requests.gif" BORDER=0 ALT="Requests"></A>
+      <BR> 
+      <I>Request a track during the show</I><BR><BR>
+      <TABLE BORDER=0>
+        <TR>
+          <TD ALIGN="LEFT" VALIGN="TOP">
+            <B>Phone </B>
+          </TD>
+          <TD>
+            The WSUW studio can be reached at 472-1314 and 472-1312.  If the line is busy,
+            or noone answers, please be patient and call back.
+          </TD>
+        </TR>
+        <TR>
+          <TD ALIGN="LEFT" VALIGN="TOP">
+            <B>Email </B>
+          </TD>
+          <TD>
+            Mail should be sent to <a href="mailto:MetropolisProject@netscape.net">the Metropolis Project</a> 
+          </TD>
+        </TR>
+        <TR>
+          <TD ALIGN="LEFT" VALIGN="TOP">
+            <B>Online </B>
+          </TD>
+          <TD>
+            Online requests can be made using the form below.  Advance requests can be made up to 1 hour before the show begins and will be given preference over requests made during the show.
+          </TD>
+        </TR>
+        </FONT>
+      </TABLE>
+      <FORM NAME="request_form" METHOD=POST ACTION="cgi/request.pl">
+      <TABLE WIDTH=430>
+        <TR>
+          <TD ALIGN=RIGHT VALIGN=MIDDLE WIDTH=100>
+            <B>artist</B>
+          </TD>
+          <TD>
+            <INPUT TYPE=TEXT NAME="request_artist" SIZE=40 LENGTH=80 onFocus="window.status='artist name'">
+          </TD>
+        </TR>
+        <TR>
+          <TD ALIGN=RIGHT VALIGN=MIDDLE WIDTH=100>
+            <B>title</B>
+          </TD>
+           <TD>
+            <INPUT TYPE=TEXT NAME="request_title" SIZE=40 LENGTH=80 onFocus="window.status='song title'">
+          </TD>
+        </TR>
+        <TR>
+          <TD ALIGN=RIGHT VALIGN=MIDDLE WIDTH=100>
+             <B>comments</B>
+          </TD>
+          <TD>
+            <INPUT TYPE=TEXT NAME="request_comments" SIZE=40 LENGTH=255 onFocus="window.status='your comments'"></TEXTAREA>
+          </TD>
+        </TR>
+        <TR> 
+          <TD ALIGN=RIGHT VALIGN=MIDDLE WIDTH=100>
+            <B>your name</B>
+          </TD>
+          <TD>
+            <INPUT TYPE=TEXT NAME="request_who" SIZE=40 onFocus="window.status='who are you?'">
+          </TD>
+        </TR> 
+        <TR>
+          <TD ALIGN=CENTER COLSPAN=2>
+            <INPUT TYPE=IMAGE NAME="Submit" SRC="Images\submit_off.gif" BORDER=0 OnMouseOver="window.status='submit request'" onMouseOut="window.status=''"> 
+          </TD>
+        </TR>
+      </TABLE>
+      </FORM> 
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=2 VALIGN=TOP ALIGN=LEFT>
+      &nbsp;<BR>
+    </TD>
+  </TR>
+  <TR>
+    <TD WIDTH=150 VALIGN =TOP ALIGN=LEFT>
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\underworld.jpg" ALT="Underworld"> 
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\fsol.jpg" ALT="Future Sound of London">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\fatland.jpg" ALT="Prodigy's 3rd CD: Fat of the Land"> 
+    </TD>
+    <TD WIDTH=430 VALIGN=TOP ALIGN=LEFT>
+      <A NAME="playlists"><IMG WIDTH=200 HEIGHT=27 SRC="Images\playlists.gif" BORDER=0 ALT="Playlists"></A> 
+      <BR>
+      <I>Check out the tracks you may have missed</I><BR><BR>
+      <TABLE>
+        <TR>
+          <TD>
+            <B>SEPTEMBER</B>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <a href="javascript:OpenPlayList('09041998')">09/04/1998</a> |
+            <a href="javascript:OpenPlayList('09111998')">09/11/1998</a> |
+            <a href="javascript:OpenPlayList('09181998')">09/18/1998</a> |
+            <a href="javascript:OpenPlayList('09251998')">09/25/1998</a>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <B>OCTOBER</B>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <a href="javascript:OpenPlayList('10021998')">10/02/1998</a> |
+            <a href="javascript:OpenPlayList('10091998')">10/09/1998</a> |
+            <a href="javascript:OpenPlayList('10161998')">10/16/1998</a> |
+            <a href="javascript:OpenPlayList('10231998')">10/23/1998</a> 
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <a href="javascript:OpenPlayList('10301998')">10/30/1998</a>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <B>NOVEMBER</B>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <a href="javascript:OpenPlayList('11061998')">11/06/1998</a> |
+            <a href="javascript:OpenPlayList('11131998')">11/13/1998</a> |
+            <a href="javascript:OpenPlayList('11201998')">11/20/1998</a> |
+            <a href="javascript:OpenPlayList('11271998')">11/27/1998</a> 
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <B>DECEMBER</B>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <a href="javascript:OpenPlayList('12041998')">12/04/1998</a> |
+            <a href="javascript:OpenPlayList('12111998')">12/11/1998</a> 
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=2 VALIGN=TOP ALIGN=LEFT>
+      &nbsp;<BR>
+    </TD>
+  </TR>
+  <TR>
+    <TD WIDTH=150 VALIGN=TOP ALIGN=LEFT>
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\prodigy2.jpg" ALT="Keith from Prodigy">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\moby.jpg" ALT="Moby">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\808.jpg" ALT="Nothing sounds quite like the 808!">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\chemical.jpg" ALT="Chemical Brothers">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\prodigy.jpg" ALT="Prodigy">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\crystal_method1.jpg" ALT="Crystal Method">
+      <IMG HEIGHT=87 WIDTH=118 SRC="Images\fbs.jpg" ALT="Fatboy Slim">   
+   
+    </TD>
+    <TD WIDTH=430 VALIGN=TOP ALIGN=LEFT>
+      <A NAME="links"><IMG WIDTH=108 HEIGHT=27 SRC="Images\links.gif" BORDER=0 ALT="Links"></A>
+      <BR>
+      <I>Check out some of our favorite links <B>Updated Weekly</B></I><BR><BR>
+      <TABLE WIDTH=430>
+        <TR>
+          <TD WIDTH=100 ALIGN=LEFT VALIGN=TOP>
+            <B>MUSIC</B>  
+          </TD>
+          <TD WIDTH=330 ALIGN=LEFT VALIGN=TOP>
+            &nbsp  
+          </TD>
+        </TR>
+        <TR> 
+          <TD COLSPAN=2>
+            <!-- MUSIC LINKS -->
+            <A HREF="http://www.astralwerks.com/highfidelity/hifilive.html">astralwerks highfidelity :: live &amp; direct</A><BR><I>Listen to Fatboy Slim, Freaky Chakra and FSOL in Concert (RealAudio)</I><BR>
+            <A HREF="http://www.astralwerks.com/chemical/random.html">random chemicals</A><BR><I>Listen to rare Chemical Brothers tracks from various EPs (RealAudio)</I><BR>
+            <A HREF="http://www.beatbox.com/archives.html">beatbox archives</A><BR><I>Listen to DJs around the world take charge of the decks (RealAudio)</I><BR>
+            <BR>
+          </TD>  
+        </TR>
+        <TR>
+          <TD WIDTH=100 ALIGN=LEFT VALIGN=TOP>
+            <B>MP3s</B>  
+          </TD>
+          <TD WIDTH=330 ALIGN=LEFT VALIGN=TOP>
+            &nbsp  
+          </TD>
+        </TR>
+        <TR> 
+          <TD COLSPAN=2>
+            <!-- MP3s LINKS -->
+            <A HREF="Mp3\fatboy~1.mp3">Fatboy Slim - 10th and Crenshaw - 4.0 mb</A><BR>
+            <I>DJ Six Million Dollar recommends this groov-a-licous track from Norman Cook's debut release as Fatboy Slim, "Better Living through Chemistry" on Astralwerks Records<P>
+          </TD>  
+        </TR>
+        <TR>
+          <TD WIDTH=100 ALIGN=LEFT VALIGN=TOP>
+            <B>CONCERTS</B>  
+          </TD>
+          <TD WIDTH=330 ALIGN=LEFT VALIGN=TOP>
+            &nbsp  
+          </TD>
+        </TR>
+        <TR> 
+          <TD COLSPAN=2>
+            <!-- CONCERT LINKS -->
+            <A HREF="http://events.ticketmaster.com/cgi/events/by_id.idc?id=4002CEAD07E6D84">Crystal Method Concert</A><BR><I>Upcoming September 19th Chicago show at the House of Blues</I><BR>
+            <BR>
+          </TD>  
+        </TR>
+        <TR>
+          <TD WIDTH=100 ALIGN=LEFT VALIGN=TOP>
+            <B>OTHER</B>  
+          </TD>
+          <TD WIDTH=330 ALIGN=LEFT VALIGN=TOP>
+            &nbsp  
+          </TD>
+        </TR>
+        <TR> 
+          <TD COLSPAN=2>
+            <!-- OTHER LINKS -->
+            <A HREF="http://www.propellerheads.se/">Rebirth 338 Techno Composer</A><BR><I>Are you the next Liam of Prodigy?  Test out your skills without having to buy the expensive equipment.</I><BR>
+            <A HREF="http://www.theonion.com/">The Onion</A><BR><I>A Wisconsin based satire newspaper that caters to the twisted sense of humor.  This site is a definite must read.  Search the archives for DC's favorite columnist, Herbert Kornfeld a.k.a. H-Dog.</I><BR>
+            <A HREF="http://www.rolandgroove.com">Groove Zone</A><BR><I>Ever think about creating your own wack-ass breakbeats?  Check out some of the Roland equiptment that can make you a god.</I><BR>
+            <A HREF="http://www.nbc.com/conan">Conan O'Brian</A><BR><I>DC and DJ Six need something to watch during the show to keep themselves sane.</I><BR>
+          </TD>  
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+
+<BR><BR>
+
+<CENTER>
+  <H6> 
+    Metropolis Project Web Design by: <I>DJ SIX MILLION DOLLAR</I><BR>
+    Last Updated: <I>Sept 11th 1998</I><BR>
+    Best Viewed with: <I>your eyes</I><BR>
+    <B>(no animals were harmed in the making of this web page)</B>
+  </H6>
+  <IMG SRC="Cgi\Log.pl">
+<CENTER>
+</FONT>
+</BODY>
+</HTML>

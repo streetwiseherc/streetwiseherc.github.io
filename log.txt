@@ -1,0 +1,6 @@
+Date/Time                  Host Name                       Host IP          Browser                                           
+Tue Sep 15 16:14:12 1998   DELL1                           140.146.189.177  Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)   
+Tue Sep 15 16:14:57 1998   DELL1                           140.146.189.177  Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)   
+Tue Sep 15 16:15:00 1998   DELL1                           140.146.189.177  Mozilla/4.0 (compatible; MSIE 4.01; Windows 95)   
+Tue Sep 15 18:51:38 1998   TONY                            140.146.147.95   Mozilla/4.05 [en] (Win95; I)                      
+Tue Sep 15 19:52:06 1998   tatooine-1-125.mdm.prk.execpc.com169.207.114.125  Mozilla/3.01C-KIT  (Win95; I)                     
